@@ -1,0 +1,11 @@
+Database Issues
+
+1. Database not appearing in the website folder:
+- The issue describes a situation where a database file is not appearing in the expected directory after creation.
+- The problem was resolved by moving the database file to the correct directory manually.
+- The user suggests that the database file might have been created in an unexpected directory (e.g., an "instances" folder) and then moved to the "website" folder.
+
+2. Database not being created:
+- The issue describes a situation where a database file is not being created at all.
+- The error message indicates that the `create_all()` method is being called with an unexpected keyword argument `app`.
+- The problem might be due to an incorrect usage of the `create_all()` method. The `create_all()` method should be called without the `app` argument.
